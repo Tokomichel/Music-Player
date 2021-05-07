@@ -342,3 +342,19 @@ body::after{
         }
     }
 }
+@media (max-width: 390px){
+    body{
+        background: #ff0;
+    }
+    .main{
+        width: 100vw;
+        .right{
+            #title{
+                font-size: 25px;
+            }
+            #artist{
+                font-size: 20px;
+            }
+        }
+    }
+}
