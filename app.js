@@ -70,6 +70,78 @@ let All_song = [
         path: "music/8.mp3",
         img: "image/img8.jpg",
         singer: "Vianney"
+    },
+    {
+        name: "Dove e quando",
+        path: "music/9.mp3",
+        img: "image/img9.jpg",
+        singer: "Benji e Fede"
+    },
+    {
+        name: "Despacito",
+        path: "music/10.mp3",
+        img: "image/img10.jpg",
+        singer: "Luis fonsi"
+    },
+    {
+        name: "PS",
+        path: "music/11.mp3",
+        img: "image/img11.jpg",
+        singer: "Maitre gims"
+    },
+    {
+        name: "Parole di ghiaccio",
+        path: "music/12.m4a",
+        img: "image/img12.jpeg",
+        singer: "Emis killa"
+    },
+    {
+        name: "Allora ciao",
+        path: "music/13.mp3",
+        img: "image/img13.jpg",
+        singer: "Shade"
+    },
+    {
+        name: "Petrichor",
+        path: "music/14.m4a",
+        img: "image/img14.jpg",
+        singer: "Mr Rain"
+    },
+    {
+        name: "Buongiorno vita",
+        path: "music/15.mp3",
+        img: "image/img15.jpg",
+        singer: "Ultimo"
+    },
+    {
+        name: "Don't care",
+        path: "music/16.mp3",
+        img: "image/img16.jpg",
+        singer: "Ed sheeran ft justin beiber"
+    },
+    {
+        name: "Hymne Juventus",
+        path: "music/17.mp3",
+        img: "image/img17.png",
+        singer: "BiancoNeri"
+    },
+    {
+        name: "Espoir adapte",
+        path: "music/18.mp3",
+        img: "image/img18.jpg",
+        singer: "Grand corps m. ft Anna Kova"
+    },
+    {
+        name: "Fiche le stelle...",
+        path: "music/19.mp3",
+        img: "image/img19.jpg",
+        singer: "B3N"
+    },
+    {
+        name: "Symphony",
+        path: "music/20.mp3",
+        img: "image/img20.jpg",
+        singer: "Clean bandit ft zara larsson"
     }
 ];
 
@@ -82,6 +154,9 @@ function load_track(index_no){
     track.src = All_song[index_no].path;
     title.innerHTML = All_song[index_no].name;
     track_image.src = All_song[index_no].img;
+    if(All_song[index_no].img==""){
+        track_image.src = "image/img.jpg";
+    }
     artist.innerHTML = All_song[index_no].singer;
     track.load();
     // Compteur en haut de l'ecran
