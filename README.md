@@ -3,12 +3,14 @@ Lecteur de Musique
 
 Bonjour,
 Ce référentiel est juste un Lecteur de Musique qui pourra être utilise par qui le veut bien.
-Nous avons déjà 8 musiques ( Et 8 images ) enregistres, et vous pourriez ajouter les vôtres.
-Pour le cela vous devez suivre les consignes suivants:
-1-) L'exécutable c'est "index.html"
-2-) Vous devez enregistrer vos images dans le dossier "image" et sous la forme "img5.jpg"
-3-) Vous devez enregistrer vos musiques dans le dossier "music" et sous la forme "1.mp3"
-4-) Il y'a un fichier "app.js" ouvrez le ! et vous verrez un dictionnaire de la forme:
+Vous pourriez ajouter vos musiques (  et images correspondantes ).
+Pour le cela vous devez suivre les consignes suivants: <br>
+1-) L'exécutable c'est "index.html" <br>
+2-) Vous devez enregistrer vos images dans le dossier ```image``` et sous la forme ```img5.jpg``` <br>
+3-) Vous devez enregistrer vos musiques dans le dossier ```music``` et sous la forme ```1.mp3``` <br>
+4-) Il y'a un fichier ```app.js``` ouvrez le ! et vous verrez un dictionnaire de la forme: <br>
+
+``` 
 let All_song = [
     {
         name: "Pour de vrai",
@@ -17,11 +19,14 @@ let All_song = [
         singer: "Vianney"
     },...
 ]
-name : correspond au titre de la musique.
-path : correspond au chemin d'acces a la musique.
-img : correspond au chemin d'acces a l'iamge de la musique ( Ou je dirais, du chanteur ).
-singer : correspond au nom de l'artiste.
+```
 
-C'EST BON VOUS POUVEZ AJOUTER VOS MUSIQUES ET LES ECOUTER.
-
+name : correspond au titre de la musique. <br>
+path : correspond au chemin d'acces a la musique. <br>
+img : correspond au chemin d'acces a l'iamge de la musique ( Ou je dirais, du chanteur ). <br>
+singer : correspond au nom de l'artiste. <br>
+C'EST BON VOUS POUVEZ AJOUTER VOS MUSIQUES ET LES ECOUTER. <br>
 N'oubliez pas que le site du referentiel est dispo ici : lndev-musicplayer.vercel.app
+
+
+
